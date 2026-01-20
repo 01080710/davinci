@@ -1,0 +1,9 @@
+# 設定時區為台灣時間
+TZ=Asia/Taipei
+
+# 每兩分鐘執行自動推送腳本(必須要有使用者、檔案路徑、執行程式路徑)
+*/5 * * * * root /usr/local/bin/python3 /app/main.py >> /var/log/cron.log 2>&1
+
+
+
+

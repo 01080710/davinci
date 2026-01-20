@@ -1,0 +1,4 @@
+pyotp==2.9.0
+requests==2.32.5
+selenium==4.36.0
+undetected_chromedriver==3.5.5
